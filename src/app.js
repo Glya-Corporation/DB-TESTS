@@ -29,5 +29,4 @@ app.use("/api/v1", userRoutes);
 
 app.listen(PORT, () => {
   console.log("Servidor corriendo")
-  console.log(`http://127.0.0.1:${PORT}`)
 });
